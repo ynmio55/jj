@@ -35,10 +35,10 @@ export const Navbar = ({ coupleNames }) => {
         {/* Logo / Clean Romantic Title */}
         <a
           href="#"
-          className="flex items-center gap-2 text-lg sm:text-xl font-extrabold text-romantic-gradient font-display"
+          className="flex items-center gap-2 text-lg sm:text-xl font-extrabold font-display py-1"
         >
-          <Heart className="w-5 h-5 text-pink-500 fill-pink-500 animate-heart-beat" />
-          <span>{coupleNames}</span>
+          <Heart className="w-5 h-5 text-pink-500 fill-pink-500 animate-heart-beat shrink-0" />
+          <span className="text-romantic-gradient">{coupleNames}</span>
         </a>
       </nav>
     </header>

@@ -27,7 +27,7 @@ export const LoveLetter = ({ letterData }) => {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-800 font-display mb-3"
         >
-          ถึงคนที่ฉันรัก 💌
+          ถึงคนที่เค้ารัก 💌
         </motion.h2>
 
         <motion.p

@@ -4,14 +4,14 @@
  */
 
 export const anniversaryConfig = {
-  coupleNames: " You & Me ",
+  coupleNames: "Muay & Jame",
   startDate: "2024-09-13", 
   musicUrl: "/music/romantic-love.mp3", 
 
   hero: {
     title: "Happy Anniversary",
     heartEmoji: "❤️",
-    subtitle: "ขอบคุณที่เข้ามาเป็นส่วนหนึ่งในชีวิตของฉัน",
+    subtitle: "ขอบคุณที่เข้ามาเป็นส่วนหนึ่งในชีวิตของเค้า",
     image: "/images/hero-profile.jpg", // 88035_0.jpg
     buttonText: "เปิดเรื่องราวของเรา 💕",
   },
@@ -38,7 +38,7 @@ export const anniversaryConfig = {
   ],
 
   letter: {
-    recipient: "ถึงคนดีของฉัน 💌",
+    recipient: "ถึงคนดีของเค้า 💌",
     salutation: "แฟนงับ,",
     paragraphs: [
       "ขอบคุณมากๆ เลยนะที่เข้ามาในชีวิตของเค้า ตั้งแต่วันแรกที่เราได้เจอกัน ชีวิตของเค้าก็มีความหมายและมีความสุขเพิ่มขึ้นในทุกๆ วัน",
@@ -59,8 +59,8 @@ export const anniversaryConfig = {
   final: {
     heading: "ขอบคุณที่อยู่ข้างกันนะ ❤️",
     quoteLine1: "ไม่รู้ว่าอนาคตจะเป็นอย่างไร",
-    quoteLine2: "แต่สิ่งหนึ่งที่ฉันรู้คือ",
-    quoteLine3: "ฉันอยากมีเธออยู่ในเรื่องราวนั้นเสมอ",
+    quoteLine2: "แต่สิ่งหนึ่งที่เค้ารู้คือ",
+    quoteLine3: "เค้าอยากมีเธออยู่ในเรื่องราวนั้นเสมอ",
     image: "/images/photo-final.jpg", // 88049.jpg
     wishText: "Happy Anniversary, My Love 💕",
     buttonConfetti: "กดตรงนี้เพื่อฉลองความรัก 🎉"

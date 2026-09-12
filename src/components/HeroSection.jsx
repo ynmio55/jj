@@ -64,9 +64,10 @@ export const HeroSection = ({ heroData, startDate }) => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.4 }}
-        className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-romantic-gradient tracking-tight mb-3 font-display"
+        className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-3 font-display leading-normal"
       >
-        {heroData.title} {heroData.heartEmoji}
+        <span className="text-romantic-gradient">{heroData.title}</span>{" "}
+        <span className="inline-block text-pink-500">{heroData.heartEmoji}</span>
       </motion.h1>
 
       <motion.p
